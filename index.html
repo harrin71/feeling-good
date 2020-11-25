@@ -20,8 +20,9 @@
           type="image/x-icon" 
           href="https://feelinggood.fi/favicon.ico">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
   </head>
-  <body>
+  <body onLoad="hideFitlineInfo()">
     <div class="row">
       <div class="col-3">
         <a href="http://www.6429307.fitline.com/">
@@ -61,27 +62,31 @@
 	<p>
 	  These products consist of premium-level, high-quality nutritional supplements (the FitLine series) and cosmetics (the FitLine med and Fitline Skin series). All the products are also doping-free and are currently used by many Olympic-level top athletes around the world!
 	</p>
-	<p>
-	  The company behind the Fitline products is PM-International - one of Europe’s largest direct marketing companies in the areas of health, wellness and beauty. It has a worldwide distribution system and operates directly in over 40 countries. These products are not available in retail but can be ordered from Distributors like me. :)
-	</p>
-	<p>
-What is very important to me and close to my heart, PM-International is very active in charity, helping children around the world. In a long-term cooperation with the aid organization <a href="https://www.worldvision.de/spenden/unternehmen/kooperation/patenschaften/pm-international-englisch">World Vision</a>, PM has over 2300 active child sponsorships for children in need, some now on every continent in the world. I’m personally a sponsor to a beautiful, small girl in India. ♥
-	</p>
-	<p>
-With PM-International, you also have a chance to work from home and become an Independent Distributor like me. I’m happy to help you Feeling Good and to help you helping others Feeling Good!
-	</p>
-	<p>
-You can order products to your home or join my team. If you have questions, send me a message. :)
-For more information, please see <a href="http://www.6429307.fitline.com">www.6429307.fitline.com</a>
-	</p>
-	<p>
-	  <ul>
-	    <li>Pinterest: <a href="https://www.pinterest.com/tainakangastupa">www.pinterest.com/tainakangastupa</a></li>
+	<button onClick="showFitlineInfo()" id="showFitlineInfoLink">Show more...</button>
+	<div id="additionalFitlineInfo">
+	  <P>
+	    The company behind the Fitline products is PM-International - one of Europe’s largest direct marketing companies in the areas of health, wellness and beauty. It has a worldwide distribution system and operates directly in over 40 countries. These products are not available in retail but can be ordered from Distributors like me. :)
+	  </p>
+	  <p>
+	    What is very important to me and close to my heart, PM-International is very active in charity, helping children around the world. In a long-term cooperation with the aid organization <a href="https://www.worldvision.de/spenden/unternehmen/kooperation/patenschaften/pm-international-englisch">World Vision</a>, PM has over 2300 active child sponsorships for children in need, some now on every continent in the world. I’m personally a sponsor to a beautiful, small girl in India. ♥
+	  </p>
+	  <p>
+	    With PM-International, you also have a chance to work from home and become an Independent Distributor like me. I’m happy to help you Feeling Good and to help you helping others Feeling Good!
+	  </p>
+	  <p>
+	    You can order products to your home or join my team. If you have questions, send me a message. :)
+	    For more information, please see <a href="http://www.6429307.fitline.com">www.6429307.fitline.com</a>
+	  </p>
+	  <p>
+	    <ul>
+	      <li>Pinterest: <a href="https://www.pinterest.com/tainakangastupa">www.pinterest.com/tainakangastupa</a></li>
 	<!--
             <li>Facebook: xxxx</li>
         -->
-          </ul>
-</p>
+            </ul>
+	  </p>
+          <button onClick="hideFitlineInfo()">Hide info...</button>
+	</div>
       </div>
       <div class="col-1 hide-small"></div>
       <div class="col-4">
