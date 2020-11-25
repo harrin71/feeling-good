@@ -12,7 +12,7 @@ h2 {
     padding-top: 10px;
 }
 
-p {
+p, ul {
     font-size: 1.3em;
 } 
 
@@ -48,7 +48,7 @@ p {
 }
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 5px;
 }
 .row::after {
     content: "";
