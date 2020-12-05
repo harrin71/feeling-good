@@ -23,6 +23,13 @@ p, ul {
     text-align: center;
 }
 
+.center-image {
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+    
+
 * {
     box-sizing: border-box;
 }
