@@ -23,12 +23,19 @@ p, ul {
     text-align: center;
 }
 
+.fitline-text {
+    color: white;
+}
+
 .center-image {
     width: 40%;
 }
     
 .bottom-image {
     width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 * {
