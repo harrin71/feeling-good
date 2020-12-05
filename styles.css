@@ -31,8 +31,16 @@ p, ul {
     width: 40%;
 }
     
+.hidden-image {
+    width: 50%;
+    padding-top: 20px;
+}
+
 .bottom-image {
     width: 30%;
+}
+
+.centering {
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -10,10 +10,12 @@ const showElement = (elementId) => {
 
 const showFitlineInfo = () => {
     showElement('additionalFitlineInfo');
+    showElement('additionalFitlineImages');
     hideElement('showFitlineInfoLink');
 }
 
 const hideFitlineInfo = () => {
     showElement('showFitlineInfoLink');
     hideElement('additionalFitlineInfo');
+    hideElement('additionalFitlineImages');
 }
